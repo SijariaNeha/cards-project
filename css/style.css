@@ -1,0 +1,95 @@
+ :root {
+  /* Primary */
+  --orange-card: hsl(31, 77%, 52%);
+  --cyan-card: hsl(184, 100%, 22%);
+  --dark-cyan-card: hsl(179, 100%, 13%); */
+}
+body{
+  margin: 0;
+  padding: 0;
+  
+  font-size: 15px;
+  font-family: font-family: 'Lexend Deca', sans-serif;;
+  background-color: rgb(250,250,250);
+}
+
+
+.outer-box{
+  background-color: 
+  border: 1px solid black;
+  width: 1200px ;
+  padding: 100px 50px;
+  margin: 100px auto;
+  
+  
+}
+.full-card{
+  display:flex;
+  /* width: 900px; */
+ 
+ 
+ width:70%;
+ margin: 0 auto;
+
+ 
+ 
+}
+
+.box{
+  padding: 30px;
+  text-align:;
+  font-weight: bold;
+  letter-spacing: ;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+ justify-content: space-evenly;
+}
+
+.first_card{
+  background-color: var(--orange-card);
+ 
+}
+.second_card{
+  background-color: var(--cyan-card);
+}
+
+.third_card {
+  background-color: var(--dark-cyan-card);
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.icon-img{
+  width:50px;
+  height: 40px;
+}
+
+h2, button{
+  color:  hsl(0, 0%, 95%);
+}
+
+h2{
+ font-family:  'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+}
+
+button{
+  
+  width: 9rem;
+  height: 3rem;
+  font-weight: 400;
+  border-radius: 3rem;
+  border-style: none;
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
